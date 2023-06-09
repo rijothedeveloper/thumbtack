@@ -1,0 +1,51 @@
+.nav-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid var(--color-place-holder) 1px;
+}
+
+.logo {
+  margin-left: 1rem;
+}
+
+.menu {
+  margin-left: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn-menu {
+  padding: 0 1rem;
+  height: 100%;
+}
+
+.nav-btn button {
+  background: transparent;
+}
+
+.nav-btn-menu button {
+  color: var(--color-secondary);
+  height: 100%;
+}
+
+.nav-btn-primary {
+  padding: 0.7rem 2rem;
+  background: var(--color-primary);
+  border-radius: 4px;
+}
+
+.nav-btn-primary button {
+  color: var(--color-white);
+}
+
+.menu .nav-btn-menu:hover {
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.down-char {
+  display: inline;
+  position: relative;
+  top: 0.2rem;
+}

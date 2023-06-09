@@ -9,8 +9,9 @@
 }
 
 :root {
-  --primary-color: #009fd9;
-  --secondary-color: #676d73;
-  --body-color: #2f3033;
-  --place-holder-color: #;
+  --color-primary: #009fd9;
+  --color-secondary: #676d73;
+  --color-body: #2f3033;
+  --color-place-holder: #676d73;
+  --color-white: #fff;
 }
